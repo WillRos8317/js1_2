@@ -16,7 +16,7 @@ for (var i = 0; i < 5; i++) {
 console.log(arr);
 
 var userName = prompt('Введите свое имя');
-var flag = false;
+var flag = true;
 
 for (var i = 0; i < arr.length; i++) {
     if (arr[i] === userName){
